@@ -1,0 +1,97 @@
+h1{
+	text-align:center;
+	font-size: 40px;
+}
+h2{
+	font-size: 30px;
+}
+h3{
+	font-size: 20px;
+}
+.h4{
+	text-align: center;
+}
+h4{
+	font-size: 40px;
+	text-align: center;
+}
+.h4{
+	font-size: 30px;
+	text-align: left;
+}
+p{
+	font-size: 20px;
+	font-weight: bold;
+}
+div{
+	display: inline-block;
+}
+#Kazimir{
+	boreder:1px solid black;
+	width: 20%;
+	height: 200px;
+	margin-left: 15%;
+}
+
+.kazimir{
+	font-size: 30px;
+}
+#Guro{
+	boreder:1px solid black;
+	width: 20%;
+	height: 200px;
+	margin-left: 5%;
+}
+.guro{
+	font-size: 30px;
+}
+#Shagal{
+	boreder:1px solid black;
+	width: 340px;
+	margin-left: 5%;
+}
+.shagal{
+	font-size: 30px;
+}
+table{
+	border: 1px solid black;
+	width: 100%;
+	height: 200px;
+	max-width: 720px;
+}
+tr{
+	border: 1px solid black;
+}
+th{
+	border: 1px solid black;
+}
+li{
+	font-size: 20px;
+	font-weight: bold;
+}
+b{
+	font-size: 25px;
+}
+.table{
+	text-align: center;
+	font-size: 40px;
+}
+.gradient {
+    height:100%; 
+    width: 100%; 
+    background: linear-gradient(149deg, rgba(255,208,145,0.8) 0%, rgba(235,208,145,0.8) 42%, rgba(215,208,145,0.8) 72%, rgba(195,208,145,0.8) 100%);
+    animation: gradient 7s infinite linear; 
+    background-size: 400%; 
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 80% 0%;
+    }
+    50% {
+        background-position: 20% 100%;
+    }
+    100% {
+        background-position: 80% 0%;
+    }
+}

@@ -1,0 +1,64 @@
+.h1{
+	text-decoration: none;
+	font-size: 10px;
+}
+.Shagal{
+	width: 30%;
+	height: 20%;
+	margin: 2% 0 0 35%;
+}
+#bg{
+	text-align: center;
+	font-size: 30px;
+}
+p{
+	font-size: 20px;
+	font-family: Times New Roman;
+}
+h2{
+	text-align: center;
+	font-size: 30px;
+}
+div{
+	display: inline-block;
+}
+.city{
+	border: 1px solid black;
+	width: 20%;
+	height: 100%;
+	margin-left: 15%;
+}
+.vi{
+	border: 1px solid black;
+	width: 20%;
+	height: 100%;
+	margin-left: 5%;
+}
+.green{
+	border: 1px solid black;
+	width: 20%;
+	height: 100%;
+	margin-left: 5%;
+}
+h3{
+	text-align: center;
+}
+.gradient {
+    height:100%; 
+    width: 100%; 
+    background: linear-gradient(149deg, rgba(255,208,145,0.8) 0%, rgba(235,208,145,0.8) 42%, rgba(215,208,145,0.8) 72%, rgba(195,208,145,0.8) 100%);
+    animation: gradient 7s infinite linear; 
+    background-size: 400%; 
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 80% 0%;
+    }
+    50% {
+        background-position: 20% 100%;
+    }
+    100% {
+        background-position: 80% 0%;
+    }
+}
